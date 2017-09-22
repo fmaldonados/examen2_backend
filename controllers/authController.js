@@ -1,6 +1,6 @@
 var joi = require('joi');
 var boom = require('boom');
-var person = require('../schemas/person');
+var person = require('../schemas/user');
 var bcrypt = require('bcrypt');
 
 exports.login = {
