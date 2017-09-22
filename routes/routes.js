@@ -37,5 +37,15 @@ exports.endpoints = [
 		method: 'DELETE',
 		path: '/bomb',
 		config: bomb.deleteBomb
-	}
+	},
+	{
+		method: 'POST',
+		path: '/login',
+		config: authentication.login
+	},
+	{
+		method: 'GET',
+		path: '/logout',
+		config: authentication.logout
+	},
 ]
